@@ -1,0 +1,212 @@
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 16px;
+    border-radius: 25px;
+  }
+  
+  #name{
+    margin-top: -48px;
+    margin-left: 75px;
+    font-size: 20px;
+    cursor: default;
+  }
+  
+  #nn{
+    margin-top: -10px;
+    margin-left: 75px;
+    font-size: 13px;
+    cursor: default;
+  
+  }
+  /* The sidebar menu */
+  .sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 250px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #00e6e6;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+    z-index: 1;
+    overflow-x: hidden;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    #logout { margin-top: 0px;}
+  }
+
+  #logout{
+      width: 75px;
+      height: 30px;
+      margin-left: 65px;
+      margin-top: 250px;
+      margin-bottom: 50px;
+      border-radius: 25px;
+      border: none;
+      cursor: pointer;
+      font-size: 20px;
+      background-color: white;
+      padding-top: 10px;
+      padding-left: 25px;
+
+  }
+  #logout:hover{
+      background-color: rgb(255, 26, 26);
+
+  }
+
+  .main{
+    margin-left: 250px;
+  }
+
+  .addpatmed{
+      width: 100px;
+      height: 40px;
+      margin-left: 40%;
+      margin-top: 30px;
+      border-radius: 25px;
+      border: none;
+      cursor: pointer;
+      font-size: 20px;
+      background-color: #00e6e6;
+      
+      
+  }
+
+  .addpatmed:hover{
+    background-color: #00e64d;
+
+}
+
+input{
+   margin: auto;
+   margin-top: 25px;
+   margin-left: 100px;
+    border: none;
+    width: 250px;
+    height: 35px;
+    background-color:rgba(255, 255, 255,0.0);
+    border-bottom: 1px solid;
+    padding: 10px;
+
+}
+
+label{
+  margin-top: 25px;
+  margin-left: 100px;
+   border: none;
+   width: 250px;
+   height: 35px;
+
+}
+
+select{
+  margin: auto;
+   margin-top: 25px;
+   margin-left: 100px;
+    border: none;
+    width: 250px;
+    height: 35px;
+    background-color:rgba(255, 255, 255,0.0);
+    border-bottom: 1px solid;
+    padding: 0px;
+
+}
+
+#patname{
+  margin-top: 30px;
+}
+
+#patform{
+  border: 1px solid;
+  width: 450px;
+  border-radius: 25px;
+  margin-top: 10px ;
+  margin-left: 18% ;
+  background-color: whitesmoke;
+  position: absolute;
+  display: none;
+  z-index: 1;
+  
+}
+
+#submit{
+  border: none;
+  width: 150px;
+  height: 35px;
+  border-radius: 25px;
+  margin: auto;
+   margin-top: 50px;
+   margin-left: 150px;
+   margin-bottom: 30px;
+  background-color:#00e6e6;
+  cursor: pointer;
+  padding: 0px;
+  font-size: 18px;
+}
+
+#submit:hover{
+  background-color: #00e64d;
+}
+
+span{
+  margin: auto;
+   margin-top: 0px;
+   margin-left: 417px;
+   border-radius: 0px 25px 0px 0px;
+}
+.close {
+  cursor: default;
+  position: absolute;
+  padding: 8px 12px;
+}
+
+.close:hover {background: rgb(255, 26, 26,0.8);}
+
+
+
+h2{
+  margin-top: 30px;
+  margin-left: 25px;
+  cursor: default;
+}
+
+h4{
+  display: inline;
+  margin-left: 50px;
+  cursor: default;
+}
+
+#d{
+  margin-right: 300px;
+
+}
+
+.patt{
+  margin-right: 50px;
+}

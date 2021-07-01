@@ -1,0 +1,7 @@
+#agenda {
+    background-color: white;
+     
+  }
+  .sidenav a:hover:not(#agenda) {
+    color: white;
+  }

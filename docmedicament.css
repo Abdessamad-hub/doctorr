@@ -1,0 +1,7 @@
+#medicament {
+    background-color: white;
+     
+  }
+  .sidenav a:hover:not(#medicament) {
+    color: white;
+  }

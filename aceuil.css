@@ -1,0 +1,103 @@
+*{
+    margin: 0em;
+    border: 0em;
+    padding: 0em;
+    
+}
+:root{
+    --main-color :#00e6e6;
+    --second-color:white;
+    --main-dark-color:black;
+}
+body{
+    background-color: var(--main-color);
+    font-family: Californian FB;
+
+
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 550px;
+    border-radius: 25px;
+}
+#cont{
+    position: center;
+    width: 900px;
+    height: 450px;
+    background-color: white;
+    margin:  auto ;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    box-shadow: 0px 0px 70px rgba(0, 0, 0,0.7);
+    padding-top: 30px;
+    background-image: url(https://apst41.fr/wp-content/uploads/2019/10/medecins-travail-apst41.svg);
+    background-repeat: no-repeat;
+}
+
+#name{
+    margin-top: -50px;
+    margin-left: 610px;
+    font-size: 20px;
+    cursor: default;
+}
+
+#nn{
+    margin-top: 5px;
+    margin-left: 610px;
+    font-size: 13px;
+    cursor: default;
+
+}
+
+#user{
+    margin-top: 25px;
+}
+
+
+
+input{
+    margin-left: 550px;
+    margin-top: 25px;
+    border: none;
+    width: 250px;
+    height: 35px;
+    background-color:rgba(255, 255, 255,0.0);
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+
+
+#submit{
+    border: none;
+    width: 120px;
+    height: 35px;
+    margin-left: 615px;
+    margin-top: 80px;
+    background-color:#00e6e6;
+    color:white;
+    cursor: pointer;
+    padding: 0px;
+    font-size: 18px;
+ }
+ #submit:hover{
+    background-color: #00e64d; 
+ }
+ 
+ label{
+     cursor: pointer;
+ }
+
+#welcome{
+    margin-left: 550px;
+    margin-top: 75px;
+    font-size: 18px;
+    cursor: default;
+}
+
+#err{
+    display: none;
+    margin-left: 550px;
+}
+

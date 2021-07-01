@@ -1,0 +1,158 @@
+
+@media all and (max-width: 900px) {
+    #cont{
+        width: 600px;
+        background-image: none;
+    }
+    #logo{
+        margin-left: 200px;
+    }
+    #err{
+        margin-left: 200px;
+    }
+    #name{
+        margin-left: 260px;
+    }
+    #nn{
+        margin-left: 260px;
+    }
+    #welcome{
+        margin-left: 200px;
+    }
+    input{
+        margin-left: 200px;
+    }
+    
+    #submit{
+        margin-left: 265px;
+    }
+
+    #doc{
+        margin-left: 200px;
+    }
+
+    #sec{
+        margin-left: 200px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    #cont{
+        width: 450px;
+    }
+    #logo{
+        margin-left: 100px;
+    }
+    #name{
+        margin-left: 160px;
+    }
+    #nn{
+        margin-left: 160px;
+    }
+    #welcome{
+        margin-left: 100px;
+    }
+    #err{
+        margin-left: 100px;
+    }
+    input{
+        margin-left: 100px;
+    }
+    
+    #submit{
+        margin-left: 165px;
+    }
+
+    #doc{
+        margin-left: 100px;
+    }
+
+    #sec{
+        margin-left: 100px;
+    }
+}
+    @media all and (max-width: 450px){
+    #cont{
+    width:100%;
+    height:100%;
+    margin-top:0px;
+    margin-bottom:0px;
+    
+    }
+    
+    #logo{
+        margin-left: 50px;
+    }
+    #name{
+        margin-left: 110px;
+    }
+    #nn{
+        margin-left: 110px;
+    }
+    #welcome{
+        margin-left: 50px;
+    }
+    input{
+        margin-left: 50px;
+        width:200px;
+    }
+    #err{
+        margin-left: 50px;
+    }
+    
+    #submit{
+        margin-left: 115px;
+    }
+
+    #doc{
+        margin-left: 50px;
+    }
+
+    #sec{
+        margin-left: 50px;
+    }}
+    
+     @media all and (max-width: 275px){
+    
+     #logo{
+        margin-left: 20px;
+    }
+    #name{
+        margin-left: 80px;
+    }
+    #nn{
+        margin-left: 80px;
+    }
+    #welcome{
+        margin-left: 20px;
+    }
+    input{
+        margin-left: 0px;
+        width:100%;
+    }
+    #err{
+        margin-left: 0px;
+    }
+    
+    #submit{
+        margin-left: 0px;
+        width:100%;
+    }
+
+    #doc{
+        margin-left: 20px;
+    }
+
+    #sec{
+        margin-left: 20px;
+    }}
+    
+    @media all and (max-width: 180px){
+    
+    #cont{height:120%;}
+    #name{
+    margin-left:20px;
+    margin-top:10px;}
+    
+    #nn{margin-left:20px;}
+    }

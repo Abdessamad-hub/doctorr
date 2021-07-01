@@ -1,0 +1,8 @@
+
+#aceuil {
+  background-color: white;
+   
+}
+.sidenav a:hover:not(#aceuil) {
+  color: white;
+}
